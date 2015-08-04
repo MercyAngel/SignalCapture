@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultOfSignalCapture">
+    <GridView
+        android:id="@+id/result_image"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:columnWidth="90dp"
+        android:gravity="center"
+        android:numColumns="1"
+        android:horizontalSpacing="5dp"
+        android:stretchMode="columnWidth"
+        android:clickable="true"
+        android:verticalSpacing="5dp"
+        android:listSelector="#00000000"
+        android:visibility="gone">
+    </GridView>
+    <ListView
+        android:id="@+id/lst_Result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </ListView>
+</RelativeLayout>

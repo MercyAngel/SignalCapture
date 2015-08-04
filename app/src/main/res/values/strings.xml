@@ -1,0 +1,182 @@
+<resources>
+
+    <!-- splash -->
+    <string name="image_description">Splash Screen </string>
+    <string name="splashScreen_text">Welcome</string>
+
+    <!-- Drawer layout -->
+    <string name="drawer_open">Select Option</string>
+    <string name="drawer_close">Signal Capture</string>
+
+    <!-- Fragment Main -->
+    <string name="welcomeDialog">Welcome</string>
+    <string name="selectPDF">Select PDF</string>
+    <string name="loadPlan">Load Plan</string>
+    <string name="viewPlans">View Plans</string>
+    <string name="syncDetail">Sync Plans</string>
+    <string name="ipDetail">Server Detail</string>
+
+    <!-- Minifest page Header Labels -->
+    <string name="app_name">Signal Capture</string>
+    <string name="pdfPagename">PDF Screen Capture</string>
+
+    <string name="resultfloorname">View Result</string>
+    <string name="viewfloorname">View Result</string>
+    <string name="userdetails">User Details</string>
+    <!-- Menu list -->
+    <string name="action_settings">Settings</string>
+    <string name="pdfImageCapture">PDF Image Capture</string>
+    <string name="screen_shot">Screen Shot</string>
+    <string name="selectImage">Plan</string>
+    <string name="selectPdf">Select PDF</string>
+    <string name="wifiOperators">Wifi</string>
+    <string name="networkOperators">Network</string>
+
+
+    <!-- Select Option Buttons -->
+    <string name="titleBuilding">Enter Building Details </string>
+    <string name="pdfScreenshot">PDF Screen Shot</string>
+    <string name="loadImage">Load Image</string>
+    <string name="loadResult">Load Result</string>
+    <string name="username">Enter Building Name</string>
+    <string name="addressOne">Address1</string>
+    <string name="addressTwo">Address2</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="zip">Zip</string>
+
+    <!-- Customer getName dialog box -->
+    <string name="getName">First Name</string>
+    <string name="userLastName">Last Name</string>
+    <string name="contact_Number">Contact Number</string>
+    <string name="email_address">Email Address</string>
+
+    <!-- Pdf next and previous page -->
+    <string name="pdfimage">PDF Image</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+
+    <!-- Network popup  -->
+    <string name="scanNetwork">Scan Network</string>
+    <string name="noteFloorImg">Location </string>
+    <string name="saveValue">Save </string>
+    <string name="cancelValue">Cancel </string>
+    <string name="chooseNetwork">Network </string>
+    <string name="chooseWifi">Wifi Network</string>
+    <string name="networkSelectHint">Change Network Technology,Modify Via "Mobile NetworkSettings" </string>
+    <string name="or">OR</string>
+    <string name="selectScanOption"> or Select Here</string>
+
+    <!-- pin popup -->
+    <string name="name">Enter Reference Name</string>
+
+    <!-- popup for wifi and Phone Network Radio popup -->
+    <string name="title">Select Network</string>
+    <string name="mob_networks">Mobile Network</string>
+
+    <string name="img">My Img</string>
+
+    <string name="wifi">WiFi Network</string>
+    <string name="network">Mobile Network</string>
+    <string name="notePad">Notepad</string>
+    <string name="drawingConform">Conformation</string>
+
+    <string name="hint">Enter the Location</string>
+    <string name="btnOpen">Open Popup</string>
+
+    <string name="alert">Alert</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="ok">Ok</string>
+    <string name="exit">Exit</string>
+
+    <!--  dialog display stored data -->
+    <string name="storedWifiTitle">Wifi Details</string>
+    <string name="setWifiOperatorName">SSID :</string>
+    <string name="setMacAddress">Mac Address :</string>
+    <string name="setSignalStr">Signal Strength :</string>
+
+    <!-- For Note Pad-->
+    <string name="notePadType">Type :</string>
+    <string name="notePadHint">Notepad Hint :</string>
+
+    <string name="floorhint">Location :</string>
+    <!--Choose Any Option-->
+    <string name="chooseany">Choose Any Options : WiFi, Network, Notepad </string>
+
+    <!-- Select Image Action Bar Control -->
+
+
+    <!-- Cell Network Name -->
+    <!-- 2G Parameters -->
+    <string name="phoneModel">Phone Model :</string>   <!-- Common Parameter -->
+    <string name="networkTechName">Network Type :</string> <!-- Common Parameter -->
+    <string name="networkProviderName">Provider :</string> <!-- Common Parameter -->
+    <string name="networkSignalStr">Signal Strength :</string>
+    <string name="networkCellIdentifier">Cell Identifier :</string>
+    <string name="networkSignalQuality">Signal Quality :</string>
+    <string name="networkChannelNo">Channel Number :</string>
+
+    <!--<string name="networkTowerId">Tower ID :</string>-->
+    <!-- 3G Parameters -->
+    <string name="networkSignalStrRSCP">Signal Strength(RSCP) :</string>
+    <string name="networkCellIdentifierPsc">Cell Identifier(PSC) :</string>
+    <string name="networkSignalQualityEcno">Signal Quality(EcNo) :</string>
+    <string name="networkChannelNumberUarfcn">Channel Number(UARFCN) :</string>
+    <!-- 4G Parameters -->
+    <string name="networkSignalStrRSRP">Signal Strength(RSRP) :</string>
+    <string name="networkCellIdentifierPCI">Cell Identifier(PCI) :</string>
+    <string name="networkSignalQualityRSRQ">Signal Quality(RSRQ) :</string>
+    <string name="networkChannelNumbereUARFCN">Channel Number(eUARFCN) :</string>
+
+    <string name="networkSignalHint">Location :</string>
+
+    <!-- wifi related Strings -->
+    <string name="wifiOperatorName">SSID :</string>
+    <string name="wifiMacAddress">Mac Address :</string>
+    <string name="wifiSignalStr">Signal Strength :</string>
+    <string name="netTechnology">Network Technology :</string>
+    <string name="providerName">Provider Name :</string>
+    <string name="cell_id">Cell Id :</string>
+    <string name="networkSignalStrength">Signal Strength :</string>
+    <string name="comment">Type Your Comment</string>
+    <string name="setWifiFrequency">Frequency :</string>
+    <string name="setWifiMode">WiFi Mode</string>
+    <string name="wifiMode">WiFi Mode :</string>
+
+    <!-- Mobile network parameters -->
+
+<!--Building Info-->
+    <string name="buildingDetails">Building Details</string>
+    <string name="buildingInfo">Building Info</string>
+    <string name="buildingName">Building Name </string>
+    <!-- Camera get Name dialog -->
+    <string name="title_getCapImage">Name of Capture Plan</string>
+    <string name="title_locationImage">Location of the Plan</string>
+    <string name="hint_locationHint">Enter the Location</string>
+    <string name="edit_getCapTitle">Enter the Plan location name</string>
+    <!-- Camera -->
+    <!--<string name="floorCapture">Floor Image</string>-->
+    <string name="floorCapture">Camera</string>
+    <string name="ImgCapture">Image Picker</string>
+    <string name="capture">Capture</string>
+    <string name="camera">Camera</string>
+
+    <!-- Custom Drawing -->
+    <string name="customDrawing">Drawing</string>
+    <string name="drawing">Sketch</string>
+    <string name="drawingMessage">By confirming the save, the sketch will be drawn permanently on top of the floor plan. Please confirm YES. If you want to redraw the sketch, please select Cancel and draw again.</string>
+    <string name="drawingErase">Undo</string>
+    <string name="drawingDelete">Delete</string>
+    <string name="drawingSave">Save</string>
+    <string name="message_erase">Clear the drawing?</string>
+    <string name="button_erase">Erase Image</string>
+    <string name="clear">Clear</string>
+
+    <!--Sync Detail-->
+    <string name="ipAddress"> IP Address</string>
+    <string name="serverUserName"> User Name</string>
+    <string name="serverPassword"> Password</string>
+    <string name="serverSync"> Sync</string>
+    <string name="serverSyncTitle"> Server Update</string>
+</resources>

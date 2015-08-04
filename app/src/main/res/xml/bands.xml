@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paragraph>
+	<Content>
+	<operator>Adams Networks</operator>
+	<band>700</band>
+	</Content>
+	<Content>
+	<operator>AlaskaComm / GCI</operator>
+	<band>1700</band>
+	</Content>
+	<Content>
+	<operator>AT&amp;T</operator>
+	<band>700B </band>
+	</Content>
+	<Content>
+	<operator>AT&amp;T</operator>
+	<band>1700</band>
+	</Content>
+	<Content>
+	<operator>AT&amp;T</operator>
+	<band>1700</band>
+	</Content>
+	<Content>
+	<operator>AT&amp;T</operator>
+	<band>1700</band>
+	</Content>
+	<Content>
+	<operator>AT&amp;T</operator>
+	<band>1900</band>
+	</Content>
+	<Content>
+	<operator>BendBroadband</operator>
+	<band>700</band>
+	</Content>
+	<Content>
+	<operator>BendBroadband</operator>
+	<band>1700</band>
+	</Content>
+	<Content>
+	<operator>Big River Broadband</operator>
+	<band>1700</band>
+	</Content>
+	<Content>
+	<operator>BIT Communications</operator>
+	<band>700</band>
+	</Content>
+	<Content>
+	<operator>Bluegrass Cellular</operator>
+	<band>700</band>
+	</Content>
+	<Content>
+	<operator>C Spire</operator>
+	<band>1700</band>
+	</Content>
+	<Content>
+	<operator>C Spire</operator>
+	<band>1900</band>
+	</Content>
+	<Content>
+	<operator>CVC</operator>
+	<band>700</band>
+	</Content>
+	<Content>
+	<operator>Evolve Broadband</operator>
+	<band>700</band>
+	</Content>
+	<Content>
+	<operator>Fuego Wireless (PVT)</operator>
+	<band>700</band>
+	</Content>
+	<Content>
+	<operator>Fuego Wireless (PVT)</operator>
+	<band>700</band>
+	</Content>
+	<Content>
+	<operator>Leap Wireless</operator>
+	<band>1700</band>
+	</Content>
+	<Content>
+	<operator>MetroPCS</operator>
+	<band>1700</band>
+	</Content>
+	<Content>
+	<operator>AVC</operator>
+	<band>700</band>
+	</Content>
+	<Content>
+	<operator>Mosaic Telecom</operator>
+	<band>700</band>
+	</Content>
+	<Content>
+	<operator>Mosaic Telecom</operator>
+	<band>1700</band>
+	</Content>
+	<Content>
+	<operator>Nex-Tech Wireless</operator>
+	<band>700</band>
+	</Content>
+	<Content>
+	<operator>Nortex Communications</operator>
+	<band>700</band>
+	</Content>
+	<Content>
+	<operator>nTelos</operator>
+	<band>700</band>
+	</Content>
+	<Content>
+	<operator>PTCI</operator>
+	<band>700</band>
+	</Content>
+	<Content>
+	<operator>Pine Cellular</operator>
+	<band>500</band>
+	</Content>
+	<Content>
+	<operator>Rock Wireless</operator>
+	<band>700</band>
+	</Content>
+	<Content>
+	<operator>Space Data Corporation</operator>
+	<band>1700</band>
+	</Content>
+	<Content>
+	<operator>Sprint</operator>
+	<band>850</band>
+	</Content>
+	<Content>
+	<operator>Sprint</operator>
+	<band>1900</band>
+	</Content>
+	<Content>
+	<operator>Sprint</operator>
+	<band>1900</band>
+	</Content>
+	<Content>
+	<operator>Sprint (formerly Clearwire)</operator>
+	<band>2500</band>
+	</Content>
+	<Content>
+	<operator>T-Mobile</operator>
+	<band>700</band>
+	</Content>
+	<Content>
+	<operator>T-Mobile</operator>
+	<band>1700</band>
+	</Content>
+	<Content>
+	<operator>T-Mobile</operator>
+	<band>1700</band>
+	</Content>
+	<Content>
+	<operator>T-Mobile</operator>
+	<band>1700</band>
+	</Content>
+	<Content>
+	<operator>T-Mobile</operator>
+	<band>1900</band>
+	</Content>
+	<Content>
+	<operator>U.S. Cellular</operator>
+	<band>700</band>
+	</Content>
+	<Content>
+	<operator>U.S. Cellular</operator>
+	<band>850</band>
+	</Content>
+	<Content>
+	<operator>United Wireless</operator>
+	<band>700</band>
+	</Content>
+	<Content>
+	<operator>Verizon</operator>
+	<band>700</band>
+	</Content>
+	<Content>
+	<operator>Verizon</operator>
+	<band>1700</band>
+	</Content>
+	<Content>
+	<operator>Verizon</operator>
+	<band>1900</band>
+	</Content>
+	<Content>
+	<operator>VTel Wireless</operator>
+	<band>700</band>
+	</Content>
+	<Content>
+	<operator>AT&amp;T</operator>
+	<band>1700</band>
+	</Content>
+	<Content>
+	<operator>Choice Phone</operator>
+	<band>500</band>
+	</Content>
+	<Content>
+	<operator>Sprint</operator>
+	<band>1900</band>
+	</Content>
+	<Content>
+	<operator>PTC</operator>
+	<band>700</band>
+	</Content>
+	<Content>
+	<operator>IND airtel</operator>
+	<band>1900</band>
+	</Content>
+</paragraph>

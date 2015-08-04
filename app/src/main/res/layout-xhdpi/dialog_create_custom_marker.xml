@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:background="@drawable/custom_layout"
+    android:layout_height="wrap_content">
+
+    <!--<View
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/doodleView"
+        class="com.kenturf.signalcapture.DoodleView"
+        android:layout_gravity="center"/>-->
+    <com.kenturf.signalcapture.DoodleView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/doodleView"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/doodleView"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/clear"
+            android:id="@+id/btnDrawingClear"
+            android:background="@drawable/custom_button"
+            android:layout_weight="0.5"
+            android:layout_marginRight="4dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_button"
+            android:text="@string/save"
+            android:id="@+id/btnDrawingSave"
+            android:layout_weight="0.5"
+            android:layout_marginLeft="4dp" />
+    </LinearLayout>
+
+</RelativeLayout>

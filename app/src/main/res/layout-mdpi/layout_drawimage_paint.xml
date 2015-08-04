@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_layout">
+    <TextView
+        android:id="@+id/txtTitle"
+        android:text="@string/drawingConform"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="24dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/drawingMessage"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp">
+        <Button
+            android:id="@+id/btnCancel"
+            android:text="@string/cancel"
+            android:layout_width="wrap_content"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_button"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp" />
+        <Button
+            android:id="@+id/btnFitPin"
+            android:text="@string/save"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_button"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp" />
+
+    </LinearLayout>
+</LinearLayout>

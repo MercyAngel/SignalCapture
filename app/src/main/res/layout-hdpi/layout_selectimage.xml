@@ -1,0 +1,108 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/pinLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="62dp"
+        android:orientation="horizontal"
+        android:background="@drawable/custom_layout">
+
+        <Button
+            android:layout_width="44dp"
+            android:layout_height="match_parent"
+            android:id="@+id/wifiOperators"
+            android:background="@drawable/ic_action_network_wifi"
+            android:visibility="visible"/>
+        <Button
+            android:layout_width="44dp"
+            android:layout_height="match_parent"
+            android:id="@+id/networkOperators"
+            android:background="@drawable/ic_action_network_cell"
+            android:visibility="visible"/>
+        <Button
+            android:layout_width="44dp"
+            android:layout_height="match_parent"
+            android:id="@+id/notepad"
+            android:background="@drawable/ic_action_notepad_icon"
+            android:visibility="visible"/>
+        <Button
+            android:layout_width="44dp"
+            android:layout_height="match_parent"
+            android:id="@+id/cameraDialog"
+            android:background="@drawable/ic_action_camera"
+            android:visibility="visible"/>
+
+        <Button
+            android:layout_width="44dp"
+            android:layout_height="match_parent"
+            android:id="@+id/drawing"
+            android:background="@drawable/sketching_pencil"
+            android:visibility="visible"/>
+        <!-- <Button
+             android:layout_width="24dp"
+             android:layout_height="match_parent"
+             android:id="@+id/save"
+             android:background="@drawable/ic_action_save"
+             android:visibility="visible"/>-->
+        <Button
+            android:id="@+id/btnStickErase"
+            android:layout_width="44dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/undo"
+            android:visibility="visible"/>
+        <Button
+            android:id="@+id/btnStickSave"
+            android:background="@drawable/ic_action_save"
+            android:layout_width="44dp"
+            android:layout_height="match_parent"
+            android:visibility="visible"/>
+
+    </LinearLayout>
+
+    <!-- <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:id="@+id/llayoutSketch"
+         android:visibility="gone">
+         <Button
+             android:id="@+id/btnStickErase"
+             android:text="@string/drawingErase"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"/>
+         <Button
+             android:id="@+id/btnStickSave"
+             android:text="@string/drawingSave"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"/>
+     </LinearLayout>-->
+
+    <com.kenturf.signalcapture.ZoomView
+        android:id="@+id/zoomView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_above="@+id/rlBottomTitle"
+        android:layout_below="@+id/rlPieTitle"
+        android:clickable="true" >
+        <FrameLayout
+            android:id="@+id/frameLayout_screen_shot"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:id="@+id/imgView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </FrameLayout>
+    </com.kenturf.signalcapture.ZoomView>
+
+</LinearLayout>

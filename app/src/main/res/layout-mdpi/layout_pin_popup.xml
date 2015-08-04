@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/popup_layout"
+    android:orientation="vertical"
+    style="@style/CustomThemeListView">
+
+    <RadioGroup
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/chooseSignalRGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+        android:id="@+id/chooseWifi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chooseWifi"
+        android:layout_weight="1"
+        android:gravity="center_vertical"/>
+
+        <RadioButton
+        android:id="@+id/chooseNetwork"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chooseNetwork"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_horizontal" />
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/txtViewWifiNetwork"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:visibility="visible"/>
+
+    <EditText
+        android:id="@+id/getTxtNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_Save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/saveValue"
+            android:layout_weight="1"
+            style="?android:attr/borderlessButtonStyle"/>
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancelValue"
+            android:layout_weight="1"
+            style="?android:attr/borderlessButtonStyle"/>
+
+        </LinearLayout>
+
+</LinearLayout>

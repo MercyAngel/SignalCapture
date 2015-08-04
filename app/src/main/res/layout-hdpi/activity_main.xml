@@ -1,0 +1,133 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/secondary_text_default_material_dark">
+    <TextView
+        android:id="@+id/showUName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcomeDialog"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        style="@style/Base.TextAppearance.AppCompat.Display1"/>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <com.kenturf.signalcapture.CircleButton
+                android:id="@+id/button0"
+                android:layout_width="74dip"
+                android:layout_height="74dip"
+                android:src="@drawable/ic_action_view_as_list"
+                app:cb_color="#99CC00" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/selectPDF"
+                style="@style/Base.TextAppearance.AppCompat.SearchResult" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.kenturf.signalcapture.CircleButton
+                android:id="@+id/button1"
+                android:layout_width="74dip"
+                android:layout_height="74dip"
+                android:src="@drawable/ic_action_new_picture"
+                app:cb_color="#FFBB33" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/loadPlan"
+                android:layout_gravity="center"
+                android:gravity="center"
+                style="@style/Base.TextAppearance.AppCompat.SearchResult" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <com.kenturf.signalcapture.CircleButton
+                android:id="@+id/button2"
+                android:layout_width="74dip"
+                android:layout_height="74dip"
+                android:src="@drawable/ic_action_picture"
+                app:cb_color="#FF4444" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/viewPlans"
+                style="@style/Base.TextAppearance.AppCompat.SearchResult"
+                android:gravity="center"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" android:weightSum="1">
+
+            <com.kenturf.signalcapture.CircleButton
+                android:id="@+id/btnSync"
+                android:layout_width="74dip"
+                android:layout_height="74dip"
+                android:src="@drawable/ic_action_picture"
+                app:cb_color="#ff4d61ff" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/syncDetail"
+                style="@style/Base.TextAppearance.AppCompat.SearchResult"
+                android:gravity="center"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.kenturf.signalcapture.CircleButton
+                android:id="@+id/ipDetail"
+                android:layout_width="74dip"
+                android:layout_height="74dip"
+                android:src="@drawable/ic_action_picture"
+                app:cb_color="#ff38ffc0" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/ipDetail"
+                style="@style/Base.TextAppearance.AppCompat.SearchResult"
+                android:gravity="center"/>
+        </LinearLayout>
+    </LinearLayout>
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/mDrawer_layout"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+        <ListView
+            android:id="@+id/mListView"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:layout_gravity="start"/>
+    </android.support.v4.widget.DrawerLayout>
+</LinearLayout>
